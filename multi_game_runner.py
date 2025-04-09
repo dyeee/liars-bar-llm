@@ -47,7 +47,8 @@ if __name__ == '__main__':
         {"name": "DeepSeek", "model": "deepseek-r1"},
         {"name": "ChatGPT", "model": "o3-mini"},
         {"name": "Claude", "model": "claude-3.7-sonnet"},
-        {"name": "Gemini", "model": "gemini-2.0-flash-thinking"}
+        {"name": "Gemini", "model": "gemini-2.0-flash-thinking"} #自行設置
+
     ]
     
     # 创建并运行多局游戏

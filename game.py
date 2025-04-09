@@ -398,7 +398,7 @@ class Game:
 
 if __name__ == '__main__':
     # 配置玩家信息, 其中model为你通过API调用的模型名称
-    player_configs = [
+    '''player_configs = [
         {
             "name": "DeepSeek",
             "model": "deepseek-r1"
@@ -415,6 +415,10 @@ if __name__ == '__main__':
             "name": "Gemini",
             "model": "gemini-2.0-flash-thinking"
         }
+    ]'''
+    player_configs = [
+        {"name": "DeepSeek", "model": "deepseek-r1:7b"},
+        {"name": "llama3", "model": "llama3:latest"}, #8b
     ]
 
     print("游戏开始！玩家配置如下：")

@@ -1,6 +1,8 @@
 from openai import OpenAI
-API_BASE_URL = "YOUR_API_BASE_URL"
-API_KEY = "YOUR_API_KEY"
+#API_BASE_URL = "YOUR_API_BASE_URL"
+#API_KEY = "YOUR_API_KEY"
+API_BASE_URL = "http://localhost:11434/v1"
+API_KEY = "ollama"
 
 class LLMClient:
     def __init__(self, api_key=API_KEY, base_url=API_BASE_URL):
